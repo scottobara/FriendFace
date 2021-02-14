@@ -14,6 +14,11 @@
 		365F036125D89F8C0086186D /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 365F036025D89F8C0086186D /* Persistence.swift */; };
 		365F036425D89F8C0086186D /* FriendFace.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 365F036225D89F8C0086186D /* FriendFace.xcdatamodeld */; };
 		365F036D25D8A7000086186D /* UserDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 365F036C25D8A7000086186D /* UserDetailView.swift */; };
+		365F037425D8D5DF0086186D /* ExampleContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 365F037325D8D5DF0086186D /* ExampleContentView.swift */; };
+		365F037C25D8EAC50086186D /* Tag+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 365F037625D8EAC50086186D /* Tag+CoreDataClass.swift */; };
+		365F037D25D8EAC50086186D /* Tag+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 365F037725D8EAC50086186D /* Tag+CoreDataProperties.swift */; };
+		365F038025D8EAC50086186D /* User+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 365F037A25D8EAC50086186D /* User+CoreDataClass.swift */; };
+		365F038125D8EAC50086186D /* User+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 365F037B25D8EAC50086186D /* User+CoreDataProperties.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +31,11 @@
 		365F036325D89F8C0086186D /* FriendFace.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FriendFace.xcdatamodel; sourceTree = "<group>"; };
 		365F036525D89F8C0086186D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		365F036C25D8A7000086186D /* UserDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetailView.swift; sourceTree = "<group>"; };
+		365F037325D8D5DF0086186D /* ExampleContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleContentView.swift; sourceTree = "<group>"; };
+		365F037625D8EAC50086186D /* Tag+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Tag+CoreDataClass.swift"; sourceTree = SOURCE_ROOT; };
+		365F037725D8EAC50086186D /* Tag+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Tag+CoreDataProperties.swift"; sourceTree = SOURCE_ROOT; };
+		365F037A25D8EAC50086186D /* User+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "User+CoreDataClass.swift"; sourceTree = SOURCE_ROOT; };
+		365F037B25D8EAC50086186D /* User+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "User+CoreDataProperties.swift"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +68,13 @@
 		365F035625D89F8B0086186D /* FriendFace */ = {
 			isa = PBXGroup;
 			children = (
+				365F037625D8EAC50086186D /* Tag+CoreDataClass.swift */,
+				365F037725D8EAC50086186D /* Tag+CoreDataProperties.swift */,
+				365F037A25D8EAC50086186D /* User+CoreDataClass.swift */,
+				365F037B25D8EAC50086186D /* User+CoreDataProperties.swift */,
 				365F035725D89F8B0086186D /* FriendFaceApp.swift */,
 				365F035925D89F8B0086186D /* ContentView.swift */,
+				365F037325D8D5DF0086186D /* ExampleContentView.swift */,
 				365F036C25D8A7000086186D /* UserDetailView.swift */,
 				365F035B25D89F8C0086186D /* Assets.xcassets */,
 				365F036025D89F8C0086186D /* Persistence.swift */,
@@ -149,9 +164,14 @@
 			files = (
 				365F036125D89F8C0086186D /* Persistence.swift in Sources */,
 				365F035A25D89F8B0086186D /* ContentView.swift in Sources */,
+				365F038125D8EAC50086186D /* User+CoreDataProperties.swift in Sources */,
 				365F036425D89F8C0086186D /* FriendFace.xcdatamodeld in Sources */,
 				365F036D25D8A7000086186D /* UserDetailView.swift in Sources */,
 				365F035825D89F8B0086186D /* FriendFaceApp.swift in Sources */,
+				365F037425D8D5DF0086186D /* ExampleContentView.swift in Sources */,
+				365F038025D8EAC50086186D /* User+CoreDataClass.swift in Sources */,
+				365F037D25D8EAC50086186D /* Tag+CoreDataProperties.swift in Sources */,
+				365F037C25D8EAC50086186D /* Tag+CoreDataClass.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
